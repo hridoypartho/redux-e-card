@@ -10,7 +10,7 @@ const Cart = () => {
   };
   return (
     <div>
-      <h3>Cart</h3>
+      <h3 style={{ textAlign: "center", fontSize: "20px" }}>Cart</h3>
       <div className="cartWrapper">
         {products.map((item) => (
           <div className="cartCard" key={item.id}>

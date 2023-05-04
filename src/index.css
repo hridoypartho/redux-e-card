@@ -46,11 +46,14 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 40px;
+  font-size: 20px;
 }
 .navLink {
   text-decoration: none;
   color: black;
-  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
 }
 
 .cartCard {
@@ -61,4 +64,12 @@ img {
   margin-bottom: 20px;
   padding: 14px;
   border-radius: 5px;
+}
+.logo{
+  font-weight: 700;
+  font-size: 25px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #764abc;
 }

@@ -3,10 +3,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
 import Cart from "./page/Cart";
 import Navbar from "./components/Navbar";
+import { Provider } from "react-redux";
+import store from "./store/store";
 
 const App = () => {
   return (
-    <div className="app">
+    <Provider store={store}>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -14,7 +16,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </Provider>
   );
 };
 
